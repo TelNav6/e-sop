@@ -2889,9 +2889,9 @@
 				<p> Untuk Radio PAE T6TV dan T6RV untuk mengatur IP Address dilakukan secara lokal pada Radio </p>
 				<ol>
 					<p>1. Masuk ke Menu Settings &rarr; Pilih LAN 1, LAN 2 atau LAN3</p>
-					<p>2. Misalkan LAN 1 dipilih, Ganti IP Address, Subnet Mask dan GAteway</p>
-					<p>3. Pasang Kabel LAN terhubung ke Laptop ke LAN 1, masukkan IP Address sesuai settingan lokal pada radio</p>
-					<p>4. Setelah itu ikutin STEP Persiapan</p>
+					<p>2. Misalkan LAN 1 dipilih, Ganti IP Address, Subnet Mask dan Gateway</p>
+					<p>3. Pasang Kabel LAN terhubung antar Laptop ke port LAN 1 Radio, masukkan IP Address sesuai settingan lokal pada radio</p>
+					<p>4. Setelah itu ikutin STEP <strong>Persiapan Radio</strong></p>
 					</ol>
 			<ul>
 				<h4>Persiapan Radio</h4>
@@ -2923,13 +2923,26 @@
 
 			<h3>B. Settingan pada TMCS</h3>
 			<p>1. Copy dahulu configuration eksisting sebagai backup.</p>
+				<div class="foto-sop-container">
+                      <img src="config.png" class="foto-sop">
+                    </div>
 			<p>2. Buka configuration yang akan diedit.</p>
 			<p>3. Pilih <strong>Logical Configuration – External Network and Centres</strong>.</p>
 			<p>4. Klik Kanan dan Pilih <strong>New Site</strong> untuk menambahkan Radio Baru.</p>
-			<p>5. Klik kanan pada kolom <strong>List of Radio Union</strong> dan pilih <strong>Create radio union trough IPRN</strong>.</p>
+				<div class="foto-sop-container">
+                      <img src="newsite.png" class="foto-sop">
+                    </div>
+			<p>5. Klik kanan pada kolom <strong>List of Radio Union</strong> dan pilih <strong>Create radio union trough IPRN</strong>.</p>				
 			<p>6. Isi data pada kolom <strong>Radio Union Data</strong>.</p>
+				<div class="foto-sop-container">
+                      <img src="txrx.png" class="foto-sop">
+                    </div>
+
+				<div class="foto-sop-container">
+                      <img src="dualtxrx.png" class="foto-sop">
+                    </div>
 			<ul>
-			<p>a. Pillih Topology yang digunakan.</p>
+			<p>a. Pilih Topology yang digunakan.</p>
 			<ul>
 			<li><p>TxRx = Transmitter</p>
 			<li><p> Tx + Rx = Transmitter &amp; Receiver</p></li>
@@ -2942,17 +2955,26 @@
 			</ul>
 			<p>7. Setelah isi semua data, klik <strong>Accept</strong>.</p>
 			<p>8. Setelah membuat External Network, Pilih <strong>Radio Keys</strong> untuk membuat radio button pada CWP.</p>
+				<div class="foto-sop-container">
+                      <img src="radiokeys.png" class="foto-sop">
+                    </div>
 			<ul>
 			<li><p>Pilih Kolok Radio Key dan Klik kanan, pilih new untuk radio baru.</p></li>
 			<li><p>Pilih kolom <strong>Radio Unions</strong> untuk Assign Radio baru dan klik <strong>Accept</strong>.</p></li>
 			</ul>
 			<ul>
 			<p>9. Setelah itu pilih <strong>Radio Template</strong> untuk penempatan assign Radio baru.</p>
+				<div class="foto-sop-container">
+                      <img src="radiotemplate.png" class="foto-sop">
+                    </div>
 			<li><p>- Pilih source radio dari IP.</p></li>
 			<li><p>- Klik kanan untuk assign dan klik <strong>Accept</strong> ketika sudah selesai.</p></li>
 			</ul>
 			
 			<p>10. Kemudian Pilih <strong>Roles</strong>.</p>
+				<div class="foto-sop-container">
+                      <img src="radiorole.png" class="foto-sop">
+                    </div>
 			<ul>
 			<li><p>Pilih <strong>Standart</strong> – Pilih name roles mana yang akan di assign.</p></li>
 			<li><p>Pilih <strong>Radio Resources</strong> untuk Assign Radio baru dengan cara klik kanan, pilih assign dan klik <strong>Accept</strong>.</p></li>
